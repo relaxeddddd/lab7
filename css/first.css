@@ -1,0 +1,179 @@
+/*================ОБНУЛЕНИЕ СТИЛЕЙ================*/
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    line-height: 1;
+    font-family: "";
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: "";
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+/*================ОБНУЛЕНИЕ СТИЛЕЙ================*/
+
+
+#main{
+	width: 800px;
+	background-image: url(../images/fon_bg.jpg);
+	background-repeat: repeat-y;
+}
+
+#header{
+	width:800px;
+	height:155px;
+	background-image: url(../images/header.jpg);
+	background-repeat:no-repeat;
+}
+
+#menu1{
+	width:800px;
+	height:35px;
+	background-image: url(../images/menu1.jpg);
+	background-repeat:no-repeat;
+}
+
+#menu2{
+	width:800px;
+	height:36px;
+	background-image: url(../images/menu2.jpg);
+	background-repeat:no-repeat;
+}
+
+#menu3{
+	width:800px;
+	height:72px;
+	background-image: url(../images/menu3.jpg);
+	background-repeat:no-repeat;
+}
+
+#reklama{
+	float:left;
+	width:263px;
+}
+
+#reklama_top{
+	width:263px;
+	height:67px;
+	background-image: url(../images/reklama_top.jpg);
+	background-repeat:no-repeat;
+}
+
+#reklama_text{
+	width:263px;
+	background-image: url(../images/reklama_bg.jpg);
+	background-repeat: repeat-y;
+}
+
+#reklama_bottom{
+	width:263px;
+	height:35px;
+	background-image: url(../images/reklama_bottom.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#content{
+	float:left;
+	width:507px;
+}
+
+#footer{
+	clear:both;
+	width:800px;
+	height:28px;
+	background-image: url(../images/footer.jpg);
+	background-repeat: repeat-x;
+}
+
+body{
+	padding-left:50%;
+	margin:0px;
+}
+
+#main{
+	margin-left:-400px;
+	background-image: url(images/fon_bg.jpg);
+	background-repeat: repeat-y;
+}
